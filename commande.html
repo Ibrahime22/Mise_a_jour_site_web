@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commander une pizza</title>
+    <link rel="stylesheet" href="commande.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Commander une pizza</h1>
+        <form id="orderForm" method="post" action="">
+            <label for="pizzaType">Type de pizza:</label>
+            <select id="pizzaType" name="pizzaType">
+                <option value="margherita">Pizza Margherita</option>
+                <option value="pepperoni">Pizza Pepperoni</option>
+                <option value="quattroStagioni">Pizza 4 Saisons</option>
+            </select>
+            <label for="size">Taille de la pizza:</label>
+            <select id="size" name="size">
+                <option value="petite">Petite</option>
+                <option value="moyenne">Moyenne</option>
+                <option value="grande">Grande</option>
+            </select>
+
+            <label for="sauce">Sauce:</label>
+            <select id="sauce" name="sauce">
+                <option value="tomate">Tomate</option>
+                <option value="mozzarella">Mozzarella</option>
+                <option value="bbq">BBQ</option>
+            </select>
+
+            <label for="toppings">Garnitures:</label>
+            <select id="toppings" name="toppings" multiple>
+                <option value="fromage">Fromage</option>
+                <option value="saucisse">Saucisse</option>
+                <option value="olives">Olives</option>
+                <option value="poivrons">Poivrons</option>
+            </select>
+
+            <button type="submit">Passer la commande</button>
+        </form>
+        <a href="accueil.html">Retour a la page d'accueil</a>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contactez-nous</h3>
+                <p>270 boulevard du plateau,Gatineau,Quebec</p>
+                <p>Email: dialloibrahima870@outlook.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="mailto:exemple@email.com"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Restaurant a pizza. Tous droits réservés.</p>
+            <p><a href="https://github.com/Ibrahime22/Projet_site_Web" class="git" target="_blank">Lien vers github</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

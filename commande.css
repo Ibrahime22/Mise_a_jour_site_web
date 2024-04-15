@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2cce3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #f44f08;
+}
+.git{
+    color: white;
+
+}
+a ::after{
+    background-color: #f44f08;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 20px;
+    color: #f44f08;
+}
+
+select {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background: linear-gradient(to top, #20056c, #20056c);
+    color: white;
+    font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+     
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #ddd;
+}
+
+.fa {
+    font-size: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #20056c;
+}
