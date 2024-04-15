@@ -1,0 +1,298 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cec7c7a2;
+}
+/* le style pour le header */
+header {
+    background-color: #20056c;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+.presentation {
+    text-align: center;
+    padding: 20px;
+}
+
+.presentation img {
+     
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.paragraphe
+{
+
+    text-justify: center;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    
+}
+.git{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.git:hover{
+    color: rgba(255, 127, 80, 0.807);
+    font-size: 22px;
+}
+/* le style pour les nav */
+nav {
+    background-color: #20056c;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+nav li a:hover {
+    color: rgba(255, 127, 80, 0.807);
+    font-size: 17px;
+}
+
+/* le style pour le main */
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(255, 127, 80, 0.807);
+}
+
+
+h1 {
+    color: rgba(255, 127, 80, 0.807);
+    text-shadow: rgb(237, 237, 49);
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+}
+
+.pizza-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pizza-item h3 {
+    margin: 0 0 10px 0;
+}
+.paragraphe {
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  logo-container {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+/* le style pour le logo */
+#logo {
+    height: 50px; 
+    width: auto; 
+    float: left;
+    
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* le style pour le footer */
+footer {
+    background: linear-gradient(to top, #20056c, #20056c);
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #ddd;
+}
+
+.fa {
+    font-size: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #20056c;
+}
+
+
+  /* la reservation */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: #cec7c7a2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 420px 420px;
+}
+.card-img{
+    background: url("../Images/imageReservation.jpg") center/cover no-repeat;
+}
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    color: #20056c;
+}
+.card-content{
+    background: #fff;
+    height: 330px;
+}
+.card-content h3{
+    text-align: center;
+    color: #000;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: #000;
+}
+button{
+    background-color: #20056c;
+    color: #ffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 32px;
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    
+}
+button:hover{
+    background-color: rgba(255, 127, 80, 0.807);;
+}
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+        width: 100vw;
+    }
+    .card-img{
+        height: 330px;
+    }
+}
