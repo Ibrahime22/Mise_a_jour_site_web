@@ -25,7 +25,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
         return;
     }
 
-    // Vérifiez si les mots de passe correspondent
+    // Vérifiez si les mots de passe sont corrects
     if (password !== confirmPassword) {
         alert('Les mots de passe ne correspondent pas.');
         return;
